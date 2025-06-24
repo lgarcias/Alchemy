@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Godot
+.import/
+.export/
+*.import
+*.godot-export
+
+# General
+.DS_Store
+Thumbs.db
