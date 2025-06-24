@@ -1,0 +1,21 @@
+{
+  "name": "Rogue Alchemy DevContainer",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "vadimcn.vscode-lldb",
+        "geequlim.godot-tools",
+        "ckolkman.vscode-postgres"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install -r backend/requirements.txt"
+}
