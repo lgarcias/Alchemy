@@ -16,6 +16,5 @@
         "ckolkman.vscode-postgres"
       ]
     }
-  },
-  "postCreateCommand": "pip install -r backend/requirements.txt"
+  }
 }

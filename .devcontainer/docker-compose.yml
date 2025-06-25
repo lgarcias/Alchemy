@@ -9,6 +9,8 @@ services:
     command: sleep infinity
     env_file:
       - ../.env
+    environment:
+      - ENV=${ENV}
     depends_on:
       - postgres
   postgres:
