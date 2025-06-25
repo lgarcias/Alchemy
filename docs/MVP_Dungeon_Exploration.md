@@ -119,11 +119,11 @@ This document defines the scope of the **Minimum Viable Product (MVP)** for *Rog
 
 #### A. General Design
 
-- [ ] Define character data structure (name, class, stats, abilities).
-- [ ] Define base classes: Alchemist and Warrior.
+- ✅ Define character data structure (name, class, stats, abilities).
+- ⏳ Define base classes: Alchemist and Warrior.
 - [ ] Design connected room system and random content.
 - [ ] Establish turn-based tactical combat mechanics (actions, turns, simple AI).
-- [ ] Define backend structure: entities, API routes, progress persistence.
+- ⏳ Define backend structure: entities, API routes, progress persistence.
 
 #### B. Frontend Godot
 
@@ -141,10 +141,10 @@ This document defines the scope of the **Minimum Viable Product (MVP)** for *Rog
 
 #### C. Backend FastAPI
 
-- [ ] Create models for user, character, and progress in SQLAlchemy.  
-- [ ] Create API routes:
+- ⏳ Create models for user, character, and progress in SQLAlchemy.  
+- ✅ Create API routes:
   - [ ] Registration and login.
-  - [ ] Save/load characters (CRUD endpoints complete & tested).
+  - ✅ Save/load characters (CRUD endpoints complete & tested).
   - [ ] Log explorations and progress.
 - [ ] Connect to PostgreSQL database.
 - [ ] Test communication with Godot client via `HTTPRequest`.
